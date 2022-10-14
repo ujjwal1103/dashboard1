@@ -1,0 +1,108 @@
+.main{
+    display: flex;
+}
+#dashboard{
+   flex: 5;
+}
+.infoBox {
+    flex: 1 1;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin: 0 30px;
+    box-shadow: inset 3px 3px 5px rgb(34 34 34 / 36%);
+}
+.infoBox h1{
+    padding-left: 13px ;
+    font-size: x-large;
+}
+.infoBox p{
+    padding-left: 13px ;
+    font-size: 16px;
+    color: gray;
+}
+.infoBoxes{
+    width: 100%;
+    padding: 20px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dashboardCharts {
+    display: flex;
+    background-color: #f6f8ff;
+    margin: 10px 46px;
+    border-radius: 10px;
+    padding: 14px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px 2px rgb(34 34 34 / 10%), 0px 0px 2px rgb(34 34 34 / 10%);
+}
+.tableData {
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 199);
+}
+table.dataTable{
+    border-collapse:collapse;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+    
+.dataTitle{
+    margin: 6px;
+    font-size: 23px;
+    padding-left: 20px;
+}  
+.dataTable tr:nth-child(even){
+   background-color: rgb(221, 220, 220);
+}
+
+.dataTable td{
+    
+    border-bottom: 1px solid rgb(202, 202, 202);
+    font-size: 14px;
+    padding: 5px;
+}
+.chart{
+    width: 400px;
+}
+
+.dataTable thead tr{
+    font-weight: bold;
+    background-color: rgb(221, 220, 220);
+}
+.dataTable tbody tr:hover{
+    background-color: gray;
+}
+.dashboardBottom {
+    width: 95%;
+    height: 89px;
+    background-color: rgb(236, 233, 233);
+    margin: 30px;
+    border-radius: 10px;
+}
+.dashboardBottomTitle{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.dashboardSocialLinks{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.dashboardSocialLinks li{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.socialIcon:hover{
+    color: rgb(59, 59, 59);
+}

@@ -1,0 +1,184 @@
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+.navbar .navbarList{
+    flex: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+
+}
+.navbar .navbarList .navbarItem {
+    /* padding: 10px; */
+  
+    /* width: 68px; */
+    list-style: none;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.navbar .navbarList .navbarItem .link:after{
+    content: '';
+    width: 100%;
+    background-color: #af0101;
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: center;
+}
+.navbar .navbarList .navbarItem .link:hover{
+    color: #af0101;
+}
+.navbar .navbarList .navbarItem .link:hover:after{
+    
+    transform: scaleX(1);
+    /* transition: transfrom 0.5s; */
+}
+.navbarItem .link{
+    /* transition:  ease-in; */
+    margin: 0 10px;
+    padding: 0 23px;
+    color: #000;
+    height: 50px;
+    display: flex;justify-content: center;
+    align-items: center;
+}
+
+li.loginBtn{
+   background-color: rgb(255, 0, 4) !important;
+   width: 100px !important;
+   border-radius: 3px !important;
+
+
+}
+.loginBtn a{
+    color: white !important;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.navbarLeft{
+    height: 50px;
+    display: flex;
+    justify-content: center;align-items: center;
+    margin-left:20px ;
+}
+.navbarLeft h2 span{
+        color: red;
+}
+.navbarSearch {
+    display: flex;
+    /* flex: 1 1; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 12px;
+}
+.navbarSearch  .navbarSearchInput{
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 49px;
+    width: 227px;
+    font-size: 16px;
+    background-color: rgb(223, 222, 222);
+    
+}
+.navbarSearchInput:focus{
+    outline: none;
+}
+.navbarSearch .navbarSearchIcon .searchIcon {
+    font-size: 21px;
+    position: absolute;
+    top: 18%;
+    left: 11px;
+    color: gray;
+}
+
+.navbarProfile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 2;
+    position: relative;
+}
+.navbarProfile .navbarProfileImage{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 14px;
+}
+.navbarProfile .navbarProfileName{
+    color: gray;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 23px;
+}
+.navbarList2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbarList2 li{
+    list-style-type: none;
+}
+.navbarList2 .navbarListItem{
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.navbarList2Icon.css-i4bv87-MuiSvgIcon-root {
+    font-size: 20px;
+}
+.showLogout{
+    margin-right: 12px;
+}
+.showLogout button{
+    display: inline-block;
+    height: 39px;
+    width: 100px;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: rgb(249, 10, 66);
+    border-radius: 10px;
+    padding: 7px 13px;
+    
+
+}
+.showLogout button:hover{
+    background-color: #810000;
+}
+
+a{
+    text-decoration: none;
+}

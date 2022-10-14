@@ -1,0 +1,24 @@
+.sideBar{
+    width: 200px;
+    background-color: rgb(62, 62, 62);
+    height: calc(100vh - 50px);
+    flex: 1;
+}
+.sideBar ul {
+    
+    padding: 10px;
+}
+.sideBar ul li{
+    color: white;
+    display: flex;align-items: center;
+   padding: 10px;
+   /* background-color: rgb(174, 110, 110); */
+   /* border-bottom: 2px solid rgb(125, 125, 125);
+   border-top: 2px solid rgb(125, 125, 125); */
+   margin-bottom: 23px;
+   /* border-radius: 12px; */
+   font-size: 16px;
+}
+.sideBar ul li:hover{
+    color: red;
+}
